@@ -10,18 +10,20 @@ const Players = (props) => {
             <div className='card custom-card'>
                 <img src={image} className='card-img-top img' alt={name} />
                 <div className='card-body'>
-                    <h5 className='card-title'>Name: {name}</h5>
-                    <p className='card-text'>Position: {position}</p>
-                    <p className='card-text'>Age: {age}</p>
-                    <p className='card-text'>Country: {country}</p>
-                    <p className='card-text'>Club: {club}</p>
-                    <p className='card-text'>Value: €{value}M</p>
-                    <button
-                        onClick={() => props.addToCart(props.players)}
-                        className='btn btn-primary'
-                    >
-                        <FontAwesomeIcon icon={faPlus}/>  Select for Shortlist
-                    </button>
+                    <h4 className='card-title text-center'>{name}</h4>
+                    <h5 className='card-text text-center custom-text'>{position}</h5>
+                    <p className='card-text'><b>Age:</b> {age}</p>
+                    <p className='card-text'><b>Country:</b> {country}</p>
+                    <p className='card-text'><b>Club:</b> {club}</p>
+                    <h6 className='card-text text-danger'><strong>Value: €{value}M</strong></h6>
+                    <div className='text-center'>
+                        <button
+                            onClick={() => props.addToCart(props.players)}
+                            className='btn btn-primary'
+                        >
+                            <FontAwesomeIcon icon={faPlus}/>  Select for Shortlist
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
