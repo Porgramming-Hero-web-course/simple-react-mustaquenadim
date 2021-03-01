@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import playersData from './Data/Data.json';
@@ -11,7 +10,6 @@ import { useState, useEffect } from 'react';
 function App() {
     const [players, setPlayers] = useState([]);
     useEffect(() => {
-        // console.log(playersData);
         setPlayers(playersData);
     }, []);
 

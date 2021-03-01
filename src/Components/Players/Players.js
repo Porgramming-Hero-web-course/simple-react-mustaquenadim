@@ -1,10 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import './Players.css';
 
 const Players = (props) => {
-    // console.log(props);
     const { name, position, age, country, club, image, value } = props.players;
     return (
         <div className="players">
