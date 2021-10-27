@@ -18,4 +18,4 @@ The Strikers United is a football club. This website is a transfer list of the s
 
 ## Available Links
 
-[Visit Website](https://quirky-bohr-d13786.netlify.app/) | [Watch Code](https://github.com/mustaquenadim/transfer-draft-react/)
+[Visit Website](https://quirky-bohr-d13786.netlify.app/) | [Watch Code](https://github.com/mustaquenadim/transfer-draft)
